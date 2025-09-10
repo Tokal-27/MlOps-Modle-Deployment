@@ -9,7 +9,7 @@ import torch
 from transformers import pipeline
 
 import boto3
-bucket_name = "mlops-kgptalkie"
+bucket_name = "mlops-tokal"
 
 local_path = 'tinybert-sentiment-analysis'
 s3_prefix = 'ml-models/tinybert-sentiment-analysis/'
