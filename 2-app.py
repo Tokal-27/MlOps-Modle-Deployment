@@ -48,3 +48,10 @@ if predict:
         st.write(output)
         # st.info(output)
 
+
+classifier = pipeline(
+    "text-classification",
+    model="./tinybert-sentiment-analysis",
+    tokenizer="./tinybert-sentiment-analysis",
+    device=device
+)
